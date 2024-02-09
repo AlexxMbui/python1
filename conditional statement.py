@@ -22,9 +22,14 @@ if number % 2 == 0:
 else:print(number,"is odd")
 
 # checking for prime numbers
-num = 7
+num = 21
 
-if num% range(2,)
+
+for i in range(2,num):
+    if num % i== 0:
+        print(num,"is not a prime number")
+        break
+    else:print(num,"is a prime number")
 
 
 
